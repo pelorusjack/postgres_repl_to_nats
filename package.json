@@ -5,12 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index && forever start ./node_modules/lapidus/index.js"
+    "start": "node index && node ./node_modules/lapidus/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "forever": "^0.15.3",
     "jsonfile": "^3.0.0",
     "lapidus": "^0.2.0",
     "pg": "^6.2.4"
