@@ -15,7 +15,7 @@ RUN chmod +x $LAPIDUS_PATH/startup.sh
 RUN apk add --no-cache make gcc g++ python
 RUN npm i -g lapidus  --unsafe 
 
-RUN cd $LAPIDUS_PATH; npm install  --unsafe
+RUN cd $LAPIDUS_PATH; npm install --unsafe
 RUN apk del make gcc g++ python
 
 CMD $LAPIDUS_PATH/startup.sh
