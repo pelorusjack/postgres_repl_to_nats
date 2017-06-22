@@ -15,8 +15,6 @@ RUN chmod +x $LAPIDUS_PATH/startup.sh
 RUN apk update \
     && apk add --no-cache git make gcc g++ python bash postgresql postgresql-client postgresql-dev
 
-RUN npm i -g lapidus  --unsafe 
-
 RUN cd $LAPIDUS_PATH; npm install --unsafe
 RUN apk del git make gcc g++ python
 
