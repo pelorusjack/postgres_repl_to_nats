@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "jsonfile": "^3.0.0",
-    "lapidus": "mattwoolnough/lapidus#608e984",
+    "lapidus": "pelorusjack/lapidus",
     "pg": "^6.2.4"
   }
 }
